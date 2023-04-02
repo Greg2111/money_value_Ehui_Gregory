@@ -44,7 +44,6 @@ export default {
       </tr>
 </thead>
 <tbody id="tbody">
-    {{ list }}
     <tr v-for="lists in list" >
         <td>{{ lists.id }}</td>
         <td>{{ lists.first_currency }}</td>
