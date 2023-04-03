@@ -6,8 +6,8 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div>
-      <nav>
-        <!-- <RouterLink to="/">Home</RouterLink> -->
+      <nav class="link_container">
+        <RouterLink to="/">Home</RouterLink>
         <br>
         <RouterLink to="/register">register</RouterLink>
         <br>
@@ -23,4 +23,11 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
+<style>
+.link_container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+</style>
 

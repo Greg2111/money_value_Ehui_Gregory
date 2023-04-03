@@ -57,7 +57,7 @@
                             <input type="text" name="pairs" id="pairs" v-model="pairs.conversion_rate" placeholder="le taux de conversion" required/>
                         </div>
                         <div class="form-group form-button">
-                            <input type="submit" name="signup" id="signup" class="form-submit" value="se connecter"/>
+                            <input type="submit" name="signup" id="signup" class="form-submit" value="ajouter"/>
                         </div>
                     </form>
                 </div>
